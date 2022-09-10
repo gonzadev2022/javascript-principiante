@@ -1,0 +1,26 @@
+body{
+    background-color: azure;
+    font-family: monospace;
+    font-size: 40px; 
+    color: aliceblue;
+}
+
+.tiempo-contenedor, .fecha-contenedor{
+    display: inline-flex;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.tiempo-item, .fecha-item{
+    width: 75px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(47, 46, 46);
+    text-align: center;
+    line-height: 100px;
+}
+
+.año {
+    width: 100px
+}
